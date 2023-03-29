@@ -300,26 +300,7 @@
       <br>
       <iframe width="80%" height="40%" src="https://www.youtube.com/embed/A6asQKXY-6k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-    <!-- 弹出窗口 -->
-    <div id="share-dialog" class="dialog">
-      <form>
-        <h3>分享到推特</h3>
-        <label for="twitter-handle">您的推特账号：</label>
-        <input type="text" id="twitter-handle" placeholder="请输入您的推特账号">
-        <br>
-        <label for="dcr-address">您的decred收款地址：</label>
-        <input type="text" id="dcr-address" placeholder="请输入您的decred收款地址">
-        <br>
-        <label for="follower-count">您的当前粉丝数量：</label>
-        <input type="text" id="follower-count" placeholder="请输入您的当前粉丝数量">
-        <br>
-        <br>
-        <a href="https://twitter.com/intent/tweet?url=https://cagedbird1.github.io/decred-Ambassador.io/" target="_blank">
-        <button type="button" class="btn-submit" onclick="submitShare()">提交</button>
-        </a>
-        <button type="button" class="btn-cancel" onclick="closeDialog()">取消</button>
-      </form>
-    </div>
+
   </section>
   <script>
     function showDialog() {
@@ -386,5 +367,25 @@
     </div>
 </div>
 
+ <!-- 弹出窗口 -->
+  <div id="share-dialog" class="dialog">
+      <form>
+        <h3>分享到推特</h3>
+        <label for="twitter-handle">您的推特账号：</label>
+        <input type="text" id="twitter-handle" placeholder="请输入您的推特账号">
+        <br>
+        <label for="dcr-address">您的decred收款地址：</label>
+        <input type="text" id="dcr-address" placeholder="请输入您的decred收款地址">
+        <br>
+        <label for="follower-count">您的当前粉丝数量：</label>
+        <input type="text" id="follower-count" placeholder="请输入您的当前粉丝数量">
+        <br>
+        <br>
+        <a href="https://twitter.com/intent/tweet?url=https://cagedbird1.github.io/decred-Ambassador.io/" target="_blank">
+        <button type="button" class="btn-submit" onclick="submitShare()">提交</button>
+        </a>
+        <button type="button" class="btn-cancel" onclick="closeDialog()">取消</button>
+      </form>
+    </div>
 </body>
 </html>
